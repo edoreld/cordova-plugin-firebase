@@ -1,14 +1,12 @@
 {
-  "author": {
-    "name": "Robert Arnesson"
-  },
+  "author": "Robert Arnesson",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/arnesson/cordova-plugin-firebase"
+    "url": "git+https://github.com/arnesson/cordova-plugin-firebase.git"
   },
-  "name": "cordova-plugin-firebase",
-  "version": "0.1.19",
+  "name": "cordova-plugin-firebase-edoreld",
+  "version": "0.1.20",
   "description": "Cordova plugin for Google Firebase",
   "cordova": {
     "id": "cordova-plugin-firebase",
@@ -26,5 +24,13 @@
     "firebase",
     "push",
     "notifications"
-  ]
+  ],
+  "bugs": {
+    "url": "https://github.com/arnesson/cordova-plugin-firebase/issues"
+  },
+  "homepage": "https://github.com/arnesson/cordova-plugin-firebase#readme",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
 }
